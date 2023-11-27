@@ -1,0 +1,22 @@
+.calculator {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    max-width: 300px;
+    margin: 20px auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.display {
+    grid-column: span 4;
+    text-align: right;
+    padding: 10px;
+    font-size: 1.5em;
+}
+
+button {
+    padding: 10px;
+    font-size: 1em;
+}
